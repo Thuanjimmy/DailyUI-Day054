@@ -1,0 +1,53 @@
+body {
+  background-color: #30475e;
+  color: #ffffff;
+}
+
+.box {
+  width: 320px;
+  height: 600px;
+  background-color: #222831;
+  border-radius: 50px;
+  border: white 10px solid;
+  margin: 75px auto;
+  padding: 15px;
+}
+
+.notch {
+  background-color: #ffffff;
+  width: 160px;
+  height: 25px;
+  border-radius: 75px;
+  position: absolute;
+  top: 75px;
+  right: 640px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 5px;
+}
+.title {
+  margin: 25px auto 50px;
+  text-align: left;
+}
+.email {
+  display: block;
+  margin-top: 50px;
+}
+.oneline {
+  display: inline;
+  margin-top: 100px;
+}
+
+.block {
+  display: inline-block;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+.verify {
+  position: relative;
+  left: 50px;
+}
